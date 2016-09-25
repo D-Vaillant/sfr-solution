@@ -97,7 +97,7 @@ def find_optimal_angle(a, b, m, n):
 
 
 # Argparse stuff
-parser = argparse.ArgumentParser(description="Solves a simple case of the"
+parser = argparse.ArgumentParser(description="Solves a simple case of the "
                                       "surface friction routing (sfr) problem.",
                                  prog="solve_case")
 parser.add_argument('height', metavar='a', type=float,
